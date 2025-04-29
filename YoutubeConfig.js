@@ -6,7 +6,7 @@ const ids = [
   "UuiabjRSDs4", "SK7yB7EtMkk", "pKguNINOFGM"
 ]
 
-const apiKey = "AIzaSyBCyMR4XZYC7_MT2RGyq9DwK_U83sT-lCc";
+const apiKey = "your-api-key";
 
 const videoUrl = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&id=${ids.join(',')}&key=${apiKey}`;
 
